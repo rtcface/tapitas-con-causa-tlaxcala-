@@ -8,4 +8,7 @@ export default defineConfig({
   integrations: [tailwind(), react()],
   site: "https://energy-template.vbartalis.dev",
   base: "",
+  image: {
+    service: { entrypoint: 'astro/assets/services/noop' }
+  },
 });
